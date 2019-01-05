@@ -1,0 +1,222 @@
+/* Code developed by Patil, Neha
+Project #1
+Fall 2017
+Username : jadrn045, 
+RED ID : 821545485 */
+
+*
+{
+	margin : 0;
+	padding: 0;
+}
+html
+{
+	height: 100%;
+}
+body 
+{
+    background-color: SeaShell;
+	margin: auto;
+	font-size: 100%;
+	min-width: 768px;
+	color: black;
+	height: 100%;
+	font-family: Arial,Helvetica,sans-serif;
+}
+#wrapper
+{
+    margin: auto;
+	height: 100%;
+}
+#Mainbanner
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+ul 
+{
+	margin: 0;
+	list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+#menubar li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;	
+}
+li a:hover:not(.active),.active 
+{
+    background-color: teal;
+}
+#seemore
+{
+    text-decoration: none;	
+	font-weight: bold;
+}
+h2 a:hover
+{
+    color: blue;
+}
+#info,.block h2,#Artintro,#art1,#art2,#historyintro,#history1,#history2
+{
+	padding: 0px 5px 5px 10px;
+}
+#historyintro,.name,#Artintro
+{
+	text-align: left;
+}
+h1,h3,.title,#history1 h2,#history2 h2,th,td,#mustsee
+{
+	text-align: center;
+}
+img,th,td,#mustsee1,#mustsee2
+{
+	border: 1px solid black; 
+}
+.displayimg,#destination,#restaurant
+{
+	border: 2px solid black; 
+}
+#history1 img,#art1 img
+{
+	float: right;
+	margin: 0 5px;
+}
+#history2 img
+{
+	float: left;
+	margin: 0px 10px 10px 10px;
+}
+.block
+ {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	height: 280px;
+	width: 1200px;
+	position: relative;
+	margin-bottom: 2px;
+ }
+.block img,#art2 img
+{
+	float: left;
+	margin: 0 5px;
+}
+.block p
+{
+	position: absolute;
+	top : 35px;
+	left: 515px;
+	bottom: 25px;
+}
+table#stats
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+th,td
+{
+	height: 30px;
+}
+th
+{
+	background-color: LightSteelBlue;	
+}
+.arttitle
+{
+    text-decoration: underline;
+}
+#order
+{
+	margin-left: 550px;
+}
+#info h2,#mustsee h3
+{ 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;      
+}
+#mustseebanner,#mustsee
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 480px;
+	width: 1204px;
+	position: relative;
+}
+#bannerCaption
+{
+	position: absolute; 
+	bottom: 120px;
+    left: 16px; 
+	color: white;
+	font-weight: bold;
+}
+#mustsee,#history1,#art1,.block:last-of-type
+{
+	margin-bottom: 25px;
+}
+#mustsee1
+{
+	float: left;
+	width: 600px;	
+	position: absolute; 
+}
+#mustsee2
+{
+	margin-left: 604px;	
+	position: absolute; 
+}
+#destination,#restaurant
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 490px;
+	width: 1100px;
+	margin-bottom: 10px;
+	background-color: MintCream;
+	border-radius: 3px;
+}
+.title
+{
+	float: left;
+	width: 200px;
+	border-right: 2px solid black; 
+	height: 100%;
+	background-color: LightSteelBlue;	
+
+}
+.title h3
+{
+	margin-top: 245px;
+}
+#hotel1,#food1
+{
+	margin-left: 80px;
+	margin-right: 40px;
+	
+}
+#hotel1,#hotel2,#food1,#food2
+{
+	margin-top: 10px;
+	float: left;
+
+}
+#clear
+{
+	clear: both;
+}
